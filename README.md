@@ -4,16 +4,16 @@ Site (http://abeautifulsite.net/notebook/87).
 
 Dual-licensed as GPL and MIT.
 
-#== Modifications
+# Modifications
 
 - no 'draggable' dependency;
 - Add jLoad 
 
-#== Installation
+# Installation
 
 Just copy and include the .js and .css files.
 
-#== Usage
+# Usage
   
   
   jLoad for loading content
@@ -59,6 +59,6 @@ Just copy and include the .js and .css files.
   });
 
 
-#== License
+# License
 
 Reseased under MIT License as the original source was.
