@@ -15,10 +15,13 @@ Just copy and include the .js and .css files.
 
 #== Usage
   
+  
   jLoad for loading content
+  
   
   jLoad('This is a custom load box', 'Loading');
   setTimeout("$('#popup_container').remove();",'2000');
+
 
   jAlert for Alert Box
   
@@ -34,6 +37,7 @@ Just copy and include the .js and .css files.
       
   });
 
+
   jPrompt for jPrompt Dialog
   
   
@@ -43,9 +47,11 @@ Just copy and include the .js and .css files.
   
   });
 
+
   Exemple custom css
   
   $.alerts.dialogClass = $(this).attr('id'); // set custom style class
+  
   jAlert('Alert Custom Style', 'Custom Styles', function() {
   
       $.alerts.dialogClass = null; // reset to default
