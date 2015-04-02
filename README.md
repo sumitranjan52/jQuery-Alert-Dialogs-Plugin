@@ -9,11 +9,11 @@ Dual-licensed as GPL and MIT.
 - no 'draggable' dependency;
 - Add jLoad 
 
-== Installation
+#== Installation
 
 Just copy and include the .js and .css files.
 
-== Usage
+#== Usage
   
   jLoad for loading content
   jLoad('This is a custom load box', 'Loading');
@@ -39,6 +39,6 @@ Just copy and include the .js and .css files.
   });
 
 
-== License
+#== License
 
 Reseased under MIT License as the original source was.
