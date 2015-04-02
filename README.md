@@ -22,9 +22,11 @@ Just copy and include the .js and .css files.
 
   jAlert for Alert Box
   
+  
   jAlert('This is a custom alert box', 'Title Alert');
 
   jConfirm for Confirm Dialog
+  
   
   jConfirm('Can you confirm this?', 'Confirmation Dialog', function(r) {
   
@@ -33,6 +35,8 @@ Just copy and include the .js and .css files.
   });
 
   jPrompt for jPrompt Dialog
+  
+  
   jPrompt('Type something:', 'Prefilled value', 'Prompt Dialog', function(r) {
   
             if( r ) alert('You entered ' + r);
@@ -40,6 +44,7 @@ Just copy and include the .js and .css files.
   });
 
   Exemple custom css
+  
   $.alerts.dialogClass = $(this).attr('id'); // set custom style class
   jAlert('Alert Custom Style', 'Custom Styles', function() {
   
