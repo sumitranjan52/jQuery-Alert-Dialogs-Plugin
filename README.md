@@ -8,6 +8,7 @@ Dual-licensed as GPL and MIT.
 
 - no 'draggable' dependency;
 - Add jLoad 
+- Fixed for use jQuery 2xxx
 
 # Installation
 
@@ -16,22 +17,15 @@ Just copy and include the .js and .css files.
 # Usage
   
   
-  jLoad for loading content
-  
-  
+jLoad for loading content
   jLoad('This is a custom load box', 'Loading');
   setTimeout("$('#popup_container').remove();",'2000');
 
-
-  jAlert for Alert Box
-  
-  
+jAlert for Alert Box
   jAlert('This is a custom alert box', 'Title Alert');
-
   jConfirm for Confirm Dialog
-  
-  
-  jConfirm('Can you confirm this?', 'Confirmation Dialog', function(r) {
+
+jConfirm('Can you confirm this?', 'Confirmation Dialog', function(r) {
   
       jAlert('Confirmed: ' + r, 'Confirmation Results');
       
