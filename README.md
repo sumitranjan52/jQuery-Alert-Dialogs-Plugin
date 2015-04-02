@@ -4,7 +4,7 @@ Site (http://abeautifulsite.net/notebook/87).
 
 Dual-licensed as GPL and MIT.
 
-== Modifications
+#== Modifications
 
 - no 'draggable' dependency;
 - Add jLoad 
